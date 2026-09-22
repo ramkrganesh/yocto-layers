@@ -1,0 +1,66 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.smod
+
+# Go module file exception - allow go.mod files
+!go.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+# Bazel
+bazel-*
+MODULE.bazel.lock
+user.bazelrc
+external
+
+# Ruff
+.ruff_cache
+
+# docs:incremental and docs:ide_support build artifacts
+/_build
+
+# Vale - editorial style guide
+.vale.ini
+styles/
+
+# direnv - folder-specific bash configuration
+.envrc
+
+# Python
+.venv
+venv/*
+__pycache__/
+/.coverage
+
+# Rust
+rust-project.json
+
+# vscode
+.vscode/

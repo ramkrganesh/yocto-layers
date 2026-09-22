@@ -1,0 +1,5 @@
+build:linux-aarch64 --config=_common
+build:linux-aarch64 --platforms=//platforms:linux_aarch64
+build:linux-aarch64 --extra_toolchains=@score_gcc_toolchain//:aarch64-linux-gcc_12.2.0
+build:linux-aarch64 --action_env=RECIPE_SYSROOT=${RECIPE_SYSROOT}
+build:linux-aarch64 --action_env=TARGET_ARCH=${TARGET_ARCH}
